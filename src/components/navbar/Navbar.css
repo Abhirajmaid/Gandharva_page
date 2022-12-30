@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    color : white;
+}
+
+.right{
+    margin-right: 20px;
+}
+
+.left{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding:0px 20px;
+    font-weight: bold;
+}
+
+li{
+    margin: 0px 5px;
+    padding: 3px;
+    font-size: 27px;
+}
+
+.center{
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.ContactBtn{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
