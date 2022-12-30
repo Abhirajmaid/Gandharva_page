@@ -1,17 +1,21 @@
 import React from 'react'
 import './Hero.css'
 
+import Timer from '../timer/Timer'
+
 function Hero() {
+  
+  
   return (
     <div className='hero'>
 
+
       <div className="wrapper">
-        <div className="left">
           <div className="gandharva">
-            Gandharva
+            GANDHARVA
           </div>
           <div className="party">
-              Let's Start The Party
+              LET'S START THE PARTY!
           </div>
           <div className="slogan">
             Slogan Goes here!
@@ -24,17 +28,16 @@ function Hero() {
               Register
             </button>
           </div>
-        </div>
 
-        <div className="right">
-          Spinning thing lmao
-        </div>
+          <div className="counter">
+            <Timer/>
+          </div>
+
       </div>
-
-      
-
     </div>
   )
 }
+
+
 
 export default Hero

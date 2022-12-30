@@ -1,0 +1,26 @@
+.footer{
+    width: 100vw;
+    background-color: #1D1D1D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+
+
+.bottomFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

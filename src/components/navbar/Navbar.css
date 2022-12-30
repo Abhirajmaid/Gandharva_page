@@ -5,7 +5,7 @@ nav{
     align-items: center;
     height: 15vh;
     width: 100vw;
-    background-color: black;
+    background-color: #FF000D;
     color : white;
 }
 
@@ -15,7 +15,7 @@ nav{
 
 .left{
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 ul{
@@ -27,20 +27,19 @@ ul{
 }
 
 li{
-    margin: 0px 5px;
+    margin: 0px 20px;
     padding: 3px;
-    font-size: 27px;
+    font-size: 20px;
 }
 
 .center{
-    border: 3px solid white;
-    border-radius: 50px;
 }
 
 .ContactBtn{
-    height: 50px;
-    width: 150px;
+    height: 35px;
+    width: 200px;
     font-size: 20px;
     font-weight: bold;
+    border-width: 3px;
     border-radius: 10px;
 }

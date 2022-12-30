@@ -1,0 +1,22 @@
+.timer{
+    display: flex;
+    flex-direction: row;
+}
+
+.days, .hours, .minutes{
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    margin:0px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+p{
+    margin: 2px;
+}
+
