@@ -17,10 +17,11 @@ ul{
     list-style-type: none;
 }
 
-
-
-.bottomFooter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.copyright{
+    margin : 5px 0px;
 }
+
+.madewith {
+    margin: 5px 0px;
+}
+

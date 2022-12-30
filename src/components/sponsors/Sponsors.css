@@ -1,0 +1,48 @@
+.sponsors{
+    background-color: #1D1D1D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.title{
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+.plat, .gld, .svr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 10px;
+}
+
+.platitems, .glditems, .svritems{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 30px;
+}
+
+.item{
+    width: 200px;
+    height: 120px;
+    background-color: black;
+    margin: 0px 30px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.item:hover{
+    border: 2px solid red;
+    box-shadow: 0px 0px 30px red;
+}
+
+

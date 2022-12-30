@@ -1,0 +1,40 @@
+.about{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+img{
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 30px
+}
+
+.leftAbout, .rightAbout{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.aboutReadMore{
+    margin: 20px;
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+

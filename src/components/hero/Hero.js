@@ -9,7 +9,6 @@ function Hero() {
   return (
     <div className='hero'>
 
-
       <div className="wrapper">
           <div className="gandharva">
             GANDHARVA

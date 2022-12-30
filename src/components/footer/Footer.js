@@ -18,14 +18,13 @@ function Footer() {
             <li>Sponsor Us</li>
         </ul>
 
-        <div className="bottomFooter">
-            <div className="left">
+        <div className="copyright">
                 Copyright ©️2022. Gandharva. All Rights Reserved.
             </div>
-            <div className="right">
+        <div className="madewith">
                 Made with ❤️.
-            </div>
         </div>
+
 
     </div>
   )

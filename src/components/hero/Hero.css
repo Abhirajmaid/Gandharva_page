@@ -7,7 +7,7 @@
 
     /* background-image: linear-gradient(#FF000D 0%, black 70%); */
     
-    background-image: linear-gradient(rgb(255,0,13) 0%, rgb(255, 0, 13, 0.85) 15%, rgba(0, 0, 0, 0.80) 70%, #1d1d1d 100%), url('../../../background.png');
+    background-image: linear-gradient(rgb(255,0,13) 0%, rgb(255, 0, 13, 0.85) 15%, rgba(0, 0, 0, 0.80) 70%), url('../../images/background.png');
     background-size: cover;
 }
 
