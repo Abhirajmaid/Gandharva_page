@@ -5,10 +5,10 @@ function SponsorUs() {
   return (
     <div className='sponsorUs'>
         <div className="sUwrap">
-            <div className="left">
+            <div className="sLeft">
                 If you would like to sponsor this event, please reach out to us at <u>gandharva@viit.ac.in</u>
             </div>
-            <div className="right">
+            <div className="sLright">
                 <button className="sponsorUsBtn">
                     Sponsor Us
                 </button>
