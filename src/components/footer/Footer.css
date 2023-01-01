@@ -25,3 +25,14 @@ ul{
     margin: 5px 0px;
 }
 
+.socials{
+    padding: 30px;
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sLogo{
+    width: 50px;
+    height: 35px;
+}

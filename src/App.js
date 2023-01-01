@@ -8,17 +8,30 @@ import About from './components/about/About';
 import Participate from './components/participate/Participate';
 import SponsorUs from './components/sponsorUs/SponsorUs';
 import EventsSc from './components/eventsnSc/EventsSc';
+import SegmentLine from './components/segmentLine/SegmentLine';
 
 function App() {
   return (
     <div>
       <Navbar/>
       <Hero/>
+      <SegmentLine/>
+
       <About/>
+      <SegmentLine/>
+
       <Participate/>
+      <SegmentLine/>
+
       <EventsSc/>
+      <SegmentLine/>
+
       <Sponsors/>
+      <SegmentLine/>
+
       <SponsorUs/>
+      <SegmentLine/>
+      
       <Footer/>
     </div>
   );
