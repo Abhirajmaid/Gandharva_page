@@ -1,0 +1,118 @@
+.wrap {
+  height: auto;
+  width: 100vw;
+  background: transparent;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  color: #ffffff;
+  transform: translate(0px, -80vh);
+  z-index: 19;
+}
+
+.contentCom {
+  height: auto;
+  width: 90vw;
+}
+
+.teamContainer {
+  height: auto;
+  margin-bottom: 20px;
+  font-size: 2.5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.members {
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+}
+
+.memberContainer {
+  height: 25vw;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3vh;
+  padding: 30px;
+  /* background-color: rebeccapurple; */
+}
+.shadow-container {
+  width: 25vw;
+  height: 25vw;
+  background-image: linear-gradient(
+    rgb(277, 0, 164, 0.4) 40%,
+    rgb(277, 0, 164, 0.1) 80%,
+    rgb(277, 50, 164, 0.1) 80%
+  );
+  border-radius: 4vh;
+}
+.ImageContainer {
+  width: 100%;
+  height: 100%;
+  transform: translate(-2vh, -2vh);
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 4vh;
+}
+
+.memberName {
+  display: flex;
+  padding: 0 20px;
+  font-size: 2.5vh;
+  color: black;
+  width: 90%;
+  justify-content: space-evenly;
+  align-items: stretch;
+  /* transform: translate(0, -5vh); */
+  transform: translate(-2vh, -7vh);
+}
+
+.pLogo {
+  height: 4vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .members {
+    display: flex;
+    /* background-color: bisque; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .memberContainer {
+    height: 80vw;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 3vh;
+    padding: 30px;
+  }
+  .pLogo {
+    height: 2vh;
+  }
+  .shadow-container {
+    width: 80vw;
+    height: 80vw;
+    background-image: linear-gradient(
+      rgb(277, 0, 164, 0.4) 40%,
+      rgb(277, 0, 164, 0.1) 80%,
+      rgb(277, 50, 164, 0.1) 80%
+    );
+    border-radius: 4vh;
+  }
+}

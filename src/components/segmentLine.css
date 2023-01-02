@@ -1,0 +1,8 @@
+.segLine {
+  width: 100vw;
+  height: 10px;
+  background-color: #343434;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
